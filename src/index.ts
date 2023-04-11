@@ -26,3 +26,10 @@ export class InvalidInputVariableFormatError extends Error {
     this.name = 'InvalidInputVariableFormatError';
   }
 }
+
+export class NotSupportedInputVariableError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'NotSupportedInputVariableError';
+  }
+}
