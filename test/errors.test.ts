@@ -1,4 +1,10 @@
-import { MissingEnvironmentVariableError, MissingInputVariableError, InvalidEnvironmentVariableFormatError, InvalidInputVariableFormatError } from '../src';
+import {
+  MissingEnvironmentVariableError,
+  MissingInputVariableError,
+  InvalidEnvironmentVariableFormatError,
+  InvalidInputVariableFormatError,
+  NotSupportedInputVariableError,
+} from '../src';
 
 describe('Errors', () => {
 
@@ -28,5 +34,12 @@ describe('Errors', () => {
       throw new InvalidInputVariableFormatError('invalid input variable format XXX.');
     };
     expect(func).toThrowError(InvalidInputVariableFormatError);
+  });
+
+  it('Should error cause Not Supported Input Variable Error', () => {
+    const func = () => {
+      throw new NotSupportedInputVariableError('not supported input variable XXX.');
+    };
+    expect(func).toThrowError(NotSupportedInputVariableError);
   });
 });
