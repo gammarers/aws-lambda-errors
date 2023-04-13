@@ -2076,9 +2076,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.359"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.359.tgz#5c4d13cb08032469fcd6bd36457915caa211356b"
-  integrity sha512-OoVcngKCIuNXtZnsYoqlCvr0Cf3NIPzDIgwUfI9bdTFjXCrr79lI0kwQstLPZ7WhCezLlGksZk/BFAzoXC7GDw==
+  version "1.4.361"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.361.tgz#010ddd5e623470ab9d1bf776b009d11c3669a4e3"
+  integrity sha512-VocVwjPp05HUXzf3xmL0boRn5b0iyqC7amtDww84Jb1QJNPBc7F69gJyEeXRoriLBC4a5pSyckdllrXAg4mmRA==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -4370,9 +4370,9 @@ npm-check-updates@^16:
     update-notifier "^6.0.2"
 
 npm-install-checks@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/npm-install-checks/-/npm-install-checks-6.1.0.tgz#7221210d9d746a40c37bf6c9b6c7a39f85e92998"
-  integrity sha512-udSGENih/5xKh3Ex+L0PtZcOt0Pa+6ppDLnpG5D49/EhMja3LupaY9E/DtJTxyFBwE09ot7Fc+H4DywnZNWTVA==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/npm-install-checks/-/npm-install-checks-6.1.1.tgz#b459b621634d06546664207fde16810815808db1"
+  integrity sha512-dH3GmQL4vsPtld59cOn8uY0iOqRmqKvV+DLGwNXV/Q7MDgD2QfOADWd/mFXcIE5LVhYYGjA3baz6W9JneqnuCw==
   dependencies:
     semver "^7.1.1"
 
@@ -4409,9 +4409,9 @@ npm-pick-manifest@^8.0.0:
     semver "^7.3.5"
 
 npm-registry-fetch@^14.0.0:
-  version "14.0.3"
-  resolved "https://registry.yarnpkg.com/npm-registry-fetch/-/npm-registry-fetch-14.0.3.tgz#8545e321c2b36d2c6fe6e009e77e9f0e527f547b"
-  integrity sha512-YaeRbVNpnWvsGOjX2wk5s85XJ7l1qQBGAp724h8e2CZFFhMSuw9enom7K1mWVUtvXO1uUSFIAPofQK0pPN0ZcA==
+  version "14.0.4"
+  resolved "https://registry.yarnpkg.com/npm-registry-fetch/-/npm-registry-fetch-14.0.4.tgz#43dfa55ce7c0d0c545d625c7a916bab5b95f7038"
+  integrity sha512-pMS2DRkwg+M44ct65zrN/Cr9IHK1+n6weuefAo6Er4lc+/8YBCU0Czq04H3ZiSigluh7pb2rMM5JpgcytctB+Q==
   dependencies:
     make-fetch-happen "^11.0.0"
     minipass "^4.0.0"
