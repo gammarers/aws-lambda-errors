@@ -2,6 +2,7 @@ import { typescript, javascript } from 'projen';
 const project = new typescript.TypeScriptProject({
   authorName: 'yicr',
   authorEmail: 'yicr@users.noreply.github.com',
+  authorOrganization: true,
   defaultReleaseBranch: 'main',
   name: '@gammarers/aws-lambda-errors',
   description: 'aws lambda errors',
