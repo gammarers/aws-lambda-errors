@@ -8,6 +8,7 @@ const project = new typescript.TypeScriptProject({
   description: 'aws lambda errors',
   repository: 'https://github.com/gammarers/aws-lambda-errors.git',
   projenrcTs: true,
+  majorVersion: 1,
   releaseToNpm: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
   minNodeVersion: '18.0.0',
