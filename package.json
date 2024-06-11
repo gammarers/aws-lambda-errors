@@ -1,9 +1,9 @@
 {
-  "name": "@yicr/aws-lambda-errors",
+  "name": "@gammarers/aws-lambda-errors",
   "description": "aws lambda errors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yicr/aws-lambda-errors.git"
+    "url": "https://github.com/gammarers/aws-lambda-errors.git"
   },
   "scripts": {
     "build": "npx projen build",
