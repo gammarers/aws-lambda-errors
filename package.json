@@ -1,9 +1,9 @@
 {
-  "name": "@yicr/aws-lambda-errors",
+  "name": "@gammarers/aws-lambda-errors",
   "description": "aws lambda errors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yicr/aws-lambda-errors.git"
+    "url": "https://github.com/gammarers/aws-lambda-errors.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -28,11 +28,11 @@
   "author": {
     "name": "yicr",
     "email": "yicr@users.noreply.github.com",
-    "organization": false
+    "organization": true
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "@types/node": "^16",
+    "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
     "constructs": "^10.0.0",
@@ -48,7 +48,7 @@
     "typescript": "^5.4.5"
   },
   "engines": {
-    "node": ">= 16.0.0"
+    "node": ">= 18.0.0"
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
