@@ -12,11 +12,11 @@ const project = new typescript.TypeScriptProject({
   releaseToNpm: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
   minNodeVersion: '18.0.0',
-  workflowNodeVersion: '22.x',
+  workflowNodeVersion: '22.4.x',
   depsUpgradeOptions: {
     workflowOptions: {
       labels: ['auto-approve', 'auto-merge'],
-      schedule: javascript.UpgradeDependenciesSchedule.expressions(['0 17 * * *']),
+      schedule: javascript.UpgradeDependenciesSchedule.expressions(['15 16 * * 5']),
     },
   },
   autoApproveOptions: {
