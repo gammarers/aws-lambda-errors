@@ -3,6 +3,7 @@ const project = new typescript.TypeScriptProject({
   authorName: 'yicr',
   authorEmail: 'yicr@users.noreply.github.com',
   authorOrganization: true,
+  typescriptVersion: '5.5.x',
   defaultReleaseBranch: 'main',
   name: '@gammarers/aws-lambda-errors',
   description: 'aws lambda errors',
